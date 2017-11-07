@@ -1,5 +1,7 @@
 <?php
+
 require ('config.php');
+
 if(isset($_POST['submitbutton'])){
     if(!isset($_POST['email'])){
         die("Error.  The email field was not set.");
